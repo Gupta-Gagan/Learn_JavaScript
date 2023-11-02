@@ -36,10 +36,45 @@ let var1 = undefined
 let numberVar1 = Number(var1);
 //console.log(typeof numberVar1);   //--> number
 
-let str1 = 25;
-let stringStr1 = String(str1);
+// let str1 = 25;
+// let stringStr1 = String(str1);
 //console.log(typeof stringStr1); //--> string
 
 let var2 = 23
 let checkValue = Boolean(var2);
-console.log(numberVar1);
+// console.log(numberVar1);
+
+
+
+// ****************** Operations ********************************
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
+// console.log(typeof negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**6);
+// console.log(2/2);
+// console.log(2%2);
+
+let str1 = "hello";
+let str2 =" Gagan";
+
+let str3 = str1 + str2;
+// console.log(str3);
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+let passcode = 45;
+
+++passcode;  // ----> Pre Increment
+passcode++;  // ----> Post Increment
+
+--passcode   // ----> Pre Decrement
+passcode--   // ----> Post Decrement
+
