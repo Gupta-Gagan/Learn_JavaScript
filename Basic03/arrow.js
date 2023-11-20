@@ -10,7 +10,7 @@ const user = {
 
 // user.welcomeMessage();
 /* 
-    this keyword refers to its local context.
+    this keyword refers to its local execution context.
 */
 user.username = "sam";
 // user.welcomeMessage();
